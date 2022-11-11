@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My first website</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">I would advise to using a sanitize-html package for sanitizing HTML code to ensure that the data a system accepts is in the right format. Take time to reaserch third-party application so that you can be sure they can be trusted and have been tested by others. Find a safe and reaserched network hosting platform that can be trusted. Instruct the web server to use HTTPS which encrypts data sent between client and server. Make the user create a strong password and use two-factor authentication when the user logges into the site. Have a automatic user timeout so that the user is logged out automatic after a while and then their credentials is not hanging in the browser. Use vulnerability scanner tools to see if you have made any mistakes that might be a securtiy problem. Use continuous deployment/continuous integration to integrate and deliver code to production because it runs a security check and if it does not pass the checkspoints it will be flagged for rework.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RainyDays</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Homepage of Rainydays, a site that sells rain jackets">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/ec5eab4b9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="images/RainyDays_Logo.png" alt="The Rainy Days logo" class="logo"></a>
+    <label for="hamburger-menu" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Jackets.html">Jackets</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <Section class="welcome">
+      <div class="welcome__info">
+      <h1>Find your next hiking jacket</h1>
+    </div>
+    <div>
+      <a href="Jackets.html" class="ctaindex">Buy now</a>
+    </div>
+    </Section>
+    <section class="hiking">
+      <h2>Great rain jackets for hiking and outdoor living.</h2>
+      <p>The jackets has an waterproof outer layer, but also created with an breathing material. The jackets is perfect for many outdoor activites such as skiing, camping, canoeing, exploring or just being outdoor on a rainy day. There are many styles, find your next rain jacket here.</p>
+      <img src="images/RainyDays_Jacket2.png" alt="Picture of a rainjacket">
+    </section>
+    <section class="hiking">
+      <div>
+        <a href="Jackets.html" class="cta">Buy now</a>
+      </div>
+      <h2>Get 20% on the Moose</h2>
+      <p>This waterproof hiking jacket is perfect for long walks in the woods og camping outside. The offer ends this sunday.</p>
+      <img src="images/RainyDays_Jacket7.png" alt="Picture of a jacket on sale">
+    </section>
+  </main>
+  <footer>
+    Copyright &copy;
+    <div>
+      <label for="font"><i class="fa-regular fa-message"></i></label>
+      <a href="Contact.html" class="message">Contact</a>
+    </div>
+  </footer>
+</body>
 </html>

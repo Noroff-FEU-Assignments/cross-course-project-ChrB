@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+nav, 
+#hamburger-menu {
+    display: none;
+}
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+nav {
+    position: absolute;
+    background: rgb(157, 157, 157);
+    text-decoration: none;
+    right: 0px;
+    top: 57px;
+}
+nav a {
+    display: block;
+    padding: 2px;
+    color: #0A3641;
+}
+nav li {
+    display: block;
+}
+img {
+    width: 100%;
+}
+.logo{
+    width: 100px;
+}
+footer {
+    padding: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.cta {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
+}
+a {
+    text-decoration: none;
+}
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: static;
+        background-color: #ffffff;
+    }
+    .hamburger-icon {
+        position: static;
+        display: none;
+        font-size: large;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+}
+@media (min-width: 800px) {
+    .alljackets {
+        display: grid;
+        grid-template-columns: 280px 280px 280px 280px;
+        gap: 20px;
+    }
+}
+/* Home page*/
+.welcome {
+    background-image: url(../images/pexels-rudolf-jakkel-418831.jpg);
+    color: rgb(228, 133, 0);
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+.welcome__info {
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-size: 1.6em;
+    transform: translateX(0%);
+    min-width: 200px;
+}
+.hiking {
+    background-color: #6F857D;
+    color: rgb(228, 133, 0);
+    text-align: right;
+    padding: 40px;
+}
+.ctaindex {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+/* About*/
+.hiking__about {
+    background-color: #6F857D;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+.hiking__about p {
+    font-size: 1,5em;
+    color: rgb(228, 133, 0);
+}
+/* Jackets*/
+.alljackets {
+    background-color: #ffffff;
+}
+.alljackets__product {
+background-color: #d9d9d9;
+color: #fff;
+white-space: 60px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+.sale {
+    text-decoration: line-through;
+}
+/* Contact*/
+.contact {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 400px;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.ctacontact {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
+}
