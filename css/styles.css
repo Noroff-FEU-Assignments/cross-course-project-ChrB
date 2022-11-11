@@ -52,6 +52,13 @@ footer {
 a {
     text-decoration: none;
 }
+@media (min-width: 400px) {
+    .alljackets {
+        display: grid;
+        grid-template-columns: 400px;
+        gap: 20px;
+    }
+}
 @media (min-width: 600px) {
     nav {
         display: block;
@@ -66,6 +73,11 @@ a {
     nav li {
         display: inline-block;
         padding: 0px;
+    }
+    .alljackets {
+        display: grid;
+        grid-template-columns: 600px;
+        gap: 20px;
     }
 }
 @media (min-width: 800px) {
@@ -94,8 +106,13 @@ a {
 }
 .hiking {
     background-color: #6F857D;
-    color: rgb(228, 133, 0);
+    color: #fff;
     text-align: right;
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 40px;
+}
+.space {
     padding: 40px;
 }
 .ctaindex {
@@ -114,9 +131,8 @@ a {
     text-align: center;
     padding: 40px;
 }
-.hiking__about p {
-    font-size: 1,5em;
-    color: rgb(228, 133, 0);
+.hiking__about h2 {
+    color: #fff;
 }
 /* Jackets*/
 .alljackets {
@@ -124,7 +140,7 @@ a {
 }
 .alljackets__product {
 background-color: #d9d9d9;
-color: #fff;
+color: #0A3641;
 white-space: 60px;
 padding-top: 10px;
 padding-left: 10px;
