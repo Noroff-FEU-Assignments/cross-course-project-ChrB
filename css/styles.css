@@ -91,7 +91,7 @@ a {
 .welcome {
     background-image: url(../images/pexels-rudolf-jakkel-418831.jpg);
     background-color: transparent;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 5px #000000;
     color: rgb(254, 254, 254);
     background-size: cover;
     width: 100%;
@@ -132,7 +132,7 @@ a {
     border-radius: 8px;
     position: absolute;
     top: 80%;
-    left: 45%;
+    left: 46%;
     text-shadow: none;
 }
 .ctabuy {
@@ -141,7 +141,7 @@ a {
     color: #ffffff;
     border-radius: 8px;
     position: absolute;
-    left: 45%;
+    left: 46%;
 }
 /* About*/ 
 .hiking__about {
@@ -161,7 +161,7 @@ a {
     background-color: #d9d9d9;
     color: #0A3641;
     white-space: 60px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
 }
 .sale {
     text-decoration: line-through;
@@ -169,6 +169,12 @@ a {
 .jacketsh2 {
     color: #0A3641;
     text-align: center;
+}
+.ctajackets {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
 }
 /* Contact*/
 .contact {
