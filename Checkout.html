@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RainyDays</title>
+  <title>RainyDays check out page</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="On this page you have to fill out your contact information to complete a purchase.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,23 +24,23 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="checkout">
+      <div class="checkoutimg">
+        <img src="images/RainyDays_Jacket2.png" alt="Lightweight run">
+    </div>
         <div>
         <h1>Check out</h1>
         <p>Lightweight run: $100</p>
         <p>Shipping cost: $10</p>
-        <p>Total: $110</p>
+        <p class="total">Total amount: $110</p>
     </div>
     </section>
     <section>
         <div>
             <a href="Jacketinfo.html" class="cta">Remove item</a>
     </div>
-    <div>
-        <img src="images/RainyDays_Jacket2.png" alt="Lightweight run">
-    </div>
     </section>
-    <Section>
+    <Section class="checkoutinfo">
         <label for="name">Name</label>
         <input type="text" id="name" name="name">
         <label for="adress">Adress</label>
@@ -57,7 +57,7 @@
         <input type="text" id="CVC" name="CVC">
       </Section>
       <section>
-        <div>
+        <div class="ctaconfirm">
             <a href="Purchaseconfirmed.html" class="cta">Confirm purchase</a>
         </div>
       </section>

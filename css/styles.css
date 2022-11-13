@@ -32,7 +32,7 @@ nav li {
     display: block;
 }
 img {
-    width: 100%;
+    width: 90%;
 }
 .logo{
     width: 100px;
@@ -52,10 +52,10 @@ footer {
 a {
     text-decoration: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .alljackets {
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 320px;
         gap: 20px;
     }
 }
@@ -87,10 +87,12 @@ a {
         gap: 20px;
     }
 }
-/* Home page*/
+/* Homepage*/
 .welcome {
     background-image: url(../images/pexels-rudolf-jakkel-418831.jpg);
-    color: rgb(228, 133, 0);
+    background-color: transparent;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(254, 254, 254);
     background-size: cover;
     width: 100%;
     min-height: 80vh;
@@ -98,22 +100,30 @@ a {
 .welcome__info {
     text-align: center;
     position: absolute;
-    left: 20%;
-    top: 35%;
+    top: 180px;
+    left: 50%;
     font-size: 1.6em;
-    transform: translateX(0%);
+    transform: translateX(-50%);
     min-width: 200px;
 }
 .hiking {
     background-color: #6F857D;
     color: #fff;
-    text-align: right;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hiking__grid {
     display: grid;
-    grid-template-columns: 500px;
-    gap: 40px;
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+}
+.hikingimg {
+    width: 300px;
+    padding: 20px 20px 20px 20px;
 }
 .space {
-    padding: 40px;
+    padding: 20px;
 }
 .ctaindex {
     padding: 10px 10px;
@@ -123,8 +133,17 @@ a {
     position: absolute;
     top: 80%;
     left: 45%;
+    text-shadow: none;
 }
-/* About*/
+.ctabuy {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    left: 45%;
+}
+/* About*/ 
 .hiking__about {
     background-color: #6F857D;
     color: #ffffff;
@@ -139,30 +158,85 @@ a {
     background-color: #ffffff;
 }
 .alljackets__product {
-background-color: #d9d9d9;
-color: #0A3641;
-white-space: 60px;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
+    background-color: #d9d9d9;
+    color: #0A3641;
+    white-space: 60px;
+    padding: 10px 10px 10px 10px;
 }
 .sale {
     text-decoration: line-through;
 }
+.jacketsh2 {
+    color: #0A3641;
+    text-align: center;
+}
 /* Contact*/
 .contact {
-    text-align: center;
-    flex-direction: column;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     max-width: 400px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     padding-top: 80px;
-    padding-left: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .ctacontact {
     padding: 10px 10px;
     background-color: #0A3641;
     color: #ffffff;
     border-radius: 8px;
+    max-width: 150px;
+}
+/* Checkout*/
+.checkout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.checkoutinfo {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 400px;
+    padding: 40px;
+}
+.checkoutimg{
+    min-width: 60px;
+    padding: 20px 20px 20px 20px;
+}
+.ctaconfirm {
+    padding: 10px 10px;
+    background-color: #0A3641;
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.total {
+    text-decoration: overline;
+}
+/* Purchasecomfirmed*/
+.greencheck {
+    font-size: 2rem;
+    color: #0A3641;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Jacketinfo*/
+.jacketinfoimg {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: #d9d9d9;
+}
+.selectsize {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-width: 50px;
+}
+.jacketinfoh2 {
+    color: #0A3641;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
