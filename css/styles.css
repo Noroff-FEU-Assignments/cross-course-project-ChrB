@@ -132,7 +132,8 @@ a {
     border-radius: 8px;
     position: absolute;
     top: 80%;
-    left: 46%;
+    left: 50%;
+    transform: translateX(-50%);
     text-shadow: none;
 }
 .ctabuy {
@@ -141,7 +142,8 @@ a {
     color: #ffffff;
     border-radius: 8px;
     position: absolute;
-    left: 46%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* About*/ 
 .hiking__about {
