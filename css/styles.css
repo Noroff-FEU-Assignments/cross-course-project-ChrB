@@ -130,6 +130,8 @@ a {
     background-color: #0A3641;
     color: #ffffff;
     border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -141,6 +143,8 @@ a {
     background-color: #0A3641;
     color: #ffffff;
     border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
