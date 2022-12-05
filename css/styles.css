@@ -109,6 +109,7 @@ a {
 .hiking {
     background-color: #6F857D;
     color: #fff;
+    font-size: larger;
     padding-bottom: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -121,9 +122,6 @@ a {
 .hikingimg {
     width: 300px;
     padding: 20px 20px 20px 20px;
-}
-.space {
-    padding: 20px;
 }
 .ctaindex {
     padding: 10px 10px;
