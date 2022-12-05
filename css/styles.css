@@ -91,7 +91,7 @@ a {
 .welcome {
     background-image: url(../images/pexels-rudolf-jakkel-418831.jpg);
     background-color: transparent;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 3px 3px 5px #000000;
     color: rgb(254, 254, 254);
     background-size: cover;
     width: 100%;
