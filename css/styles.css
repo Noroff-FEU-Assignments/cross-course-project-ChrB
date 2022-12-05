@@ -91,7 +91,7 @@ a {
 .welcome {
     background-image: url(../images/pexels-rudolf-jakkel-418831.jpg);
     background-color: transparent;
-    text-shadow: 3px 3px 5px #000000;
+    text-shadow: 1px 1px 1px #000000;
     color: rgb(254, 254, 254);
     background-size: cover;
     width: 100%;
@@ -102,7 +102,7 @@ a {
     position: absolute;
     top: 180px;
     left: 50%;
-    font-size: 1.6em;
+    font-size: 2.6em;
     transform: translateX(-50%);
     min-width: 200px;
 }
@@ -110,6 +110,7 @@ a {
     background-color: #6F857D;
     color: #fff;
     font-size: larger;
+    font-weight: bolder;
     padding-bottom: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
